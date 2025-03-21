@@ -1,9 +1,23 @@
-# jemdoc: menu{MENU}{publications.html}, showsource, title{Tansheng Zhu}
+# jemdoc: menu{MENU}{publications.html}, addcss{bibtex.css}, addjs{bibtex}, showsource, title{Tansheng Zhu}
 == Publications
+
 
 - *Bayesian Optimization by Kernel Regression and Density-based Exploration* [https://arxiv.org/abs/2502.06178 \[arxiv\]]\n
 _Tansheng Zhu_, Hongyu Zhou, Ke Jin, Xusheng Xu, Qiufan Yuan, [https://math.shu.edu.cn/info/1021/20421.htm Lijie Ji]\n
-Submitted\n
+Submitted{{
+<details>
+<summary>bibtex</summary>
+@misc{zhu2025bayesian,
+    archiveprefix={arXiv},
+    author={Tansheng Zhu and Hongyu Zhou and Ke Jin and Xusheng Xu and Qiufan Yuan and Lijie Ji},
+    eprint={2502.06178},
+    primaryclass={math.OC},
+    title={Bayesian Optimization by Kernel Regression and Density-based Exploration},
+    url={https://arxiv.org/abs/2502.06178},
+    year={2025},
+}
+</details>
+}}\n
 
 - *BOKR-MCTS: Bayesian-Optimized Progressive Widening via Kernel Regression for Monte Carlo Tree Search in Continuous Action Spaces*\n
 Ke Jin, _Tansheng Zhu_, Hongyu Zhou, Xusheng Xu, Qiufan Yuan, [https://math.shu.edu.cn/info/1021/20421.htm Lijie Ji]\n
