@@ -54,6 +54,7 @@ body {
 	background: white;
 	text-align: left;
 	vertical-align: top;
+	min-width: 888px;
 	width: 888px;
 }
 
