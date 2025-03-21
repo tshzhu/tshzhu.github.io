@@ -2,23 +2,23 @@
 == Publications
 
 
-- *Bayesian Optimization by Kernel Regression and Density-based Exploration* [https://arxiv.org/abs/2502.06178 \[arxiv\]]\n
+- *Bayesian Optimization by Kernel Regression and Density-based Exploration* 
+[https://arxiv.org/abs/2502.06178 \[arxiv\]]{{<a href="javascript:void(0)" data-target="zhu2025bayesian" class="cite-toggle">[cite]</a>}}\n
 _Tansheng Zhu_, Hongyu Zhou, Ke Jin, Xusheng Xu, Qiufan Yuan, [https://math.shu.edu.cn/info/1021/20421.htm Lijie Ji]\n
-Submitted{{
-<details>
-<summary>bibtex</summary>
+Submitted.
+{{<div class="codeblock" id="zhu2025bayesian" style="display:none"><div class="blockcontent" style="margin-left: 40px"><pre style="white-space: pre">
 @misc{zhu2025bayesian,
-    archiveprefix={arXiv},
-    author={Tansheng Zhu and Hongyu Zhou and Ke Jin and Xusheng Xu and Qiufan Yuan and Lijie Ji},
-    eprint={2502.06178},
-    primaryclass={math.OC},
-    title={Bayesian Optimization by Kernel Regression and Density-based Exploration},
-    url={https://arxiv.org/abs/2502.06178},
-    year={2025},
+[T4]archiveprefix={arXiv},
+[T4]author={Tansheng Zhu and Hongyu Zhou and Ke Jin and Xusheng Xu and Qiufan Yuan and Lijie Ji},
+[T4]eprint={2502.06178},
+[T4]primaryclass={math.OC},
+[T4]title={Bayesian Optimization by Kernel Regression and Density-based Exploration},
+[T4]url={https://arxiv.org/abs/2502.06178},
+[T4]year={2025},
 }
-</details>
-}}\n
+</pre></div></div>}}
+
 
 - *BOKR-MCTS: Bayesian-Optimized Progressive Widening via Kernel Regression for Monte Carlo Tree Search in Continuous Action Spaces*\n
 Ke Jin, _Tansheng Zhu_, Hongyu Zhou, Xusheng Xu, Qiufan Yuan, [https://math.shu.edu.cn/info/1021/20421.htm Lijie Ji]\n
-In preparation\n
+In preparation.
