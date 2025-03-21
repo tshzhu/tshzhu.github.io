@@ -1,0 +1,10 @@
+# jemdoc: menu{MENU}{publications.html}, nofooter
+== Publications
+
+- *Bayesian Optimization by Kernel Regression and Density-based Exploration* [https://arxiv.org/abs/2502.06178 \[arxiv\]]\n
+_Tansheng Zhu_, Hongyu Zhou, Ke Jin, Xusheng Xu, Qiufan Yuan, Lijie Ji\n
+Submitted\n
+
+- *BOKR-MCTS: Bayesian-Optimized Progressive Widening via Kernel Regression for Monte Carlo Tree Search in Continuous Action Spaces*\n
+Ke Jin, _Tansheng Zhu_, Hongyu Zhou, Xusheng Xu, Qiufan Yuan, Lijie Ji\n
+Submitted\n
