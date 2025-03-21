@@ -1,4 +1,4 @@
-# jemdoc: menu{MENU}{publications.html}, showsource
+# jemdoc: menu{MENU}{publications.html}, showsource, title{Tansheng Zhu}
 == Publications
 
 - *Bayesian Optimization by Kernel Regression and Density-based Exploration* [https://arxiv.org/abs/2502.06178 \[arxiv\]]\n
