@@ -1,5 +1,7 @@
-# jemdoc: menu{MENU}{publications.html}, addcss{bibtex.css}, addjs{bibtex}, showsource, title{Tansheng Zhu}
-== Publications
+# jemdoc: menu{MENU}{publications.html}, notime, showsource
+# jemdoc: addcss{bibtex.css}, addjs{bibtex}
+# jemdoc: title{Tansheng Zhu's Homepage}
+= Publications
 
 
 - *Bayesian Optimization by Kernel Regression and Density-based Exploration* 
