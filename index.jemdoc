@@ -1,4 +1,4 @@
-# jemdoc: menu{MENU}{index.html}, nodate, showsource
+# jemdoc: menu{MENU}{index.html}, notime, showsource
 # jemdoc: title{Tansheng Zhu's Homepage}
 = Tansheng Zhu~~{{<span style="font-family: 'KaiTi', STKaiti; font-size: 1.1em;">朱坦晟</span>}}
 
@@ -13,7 +13,7 @@ At Shanghai Jiao Tong University, I am honored to pursue my undergraduate thesis
 During my exchange at The Chinese University of Hong Kong, I was fortunate to join Prof. [https://fengleifan.github.io/Feng-Lei.Fan.github.io/about.html Fenglei Fan]'s research group as an intern and continued as a research assistant in the following summer.
 ~~~
 
-My research interests lie in *+machine learning theory, deep learning theory, optimization, and information theory+*.
+My research interests lie in {{<span style="font-family: monospace, sans-serif; font-weight: bold;">{machine learning theory, deep learning theory, optimization, and information theory}</span>}}.
 
 Under the guidance of Prof. Zhenli Xu, I am currently researching efficient algorithms for Bayesian optimization and reinforcement learning. 
 Also, under the supervision of Prof. Fenglei Fan, I am investigating the properties of finitely wide neural networks as their depth approaches infinity, with the aim of uncovering the duality between width and depth.
