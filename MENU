@@ -1,9 +1,10 @@
 Menu
 	Home                [index.html]
-	CV			        [\pdfs/CV_TanshengZhu.pdf]
+  CV			            [\pdfs/CV_TanshengZhu.pdf]
 	Publications        [publications.html]
 Useful Links
-    Notation for ML     [\https://notation.baai.ac.cn/]
-    EoM                 [\https://encyclopediaofmath.org/wiki/Main_Page]
-    KaTeX               [\https://katex.org/docs/supported.html]
-    Jemdoc+             [\https://szl2.github.io/jemdoc-new-design/www/cheatsheet.html]
+  ML Notation         [\https://2020-assets.baai.ac.cn/sign/img/ml_notation.pdf]
+  EoM                 [\https://encyclopediaofmath.org/wiki/Main_Page]
+  KaTeX               [\https://katex.org/docs/supported.html]
+  UnicodeMath         [\https://www.cs.ucf.edu/courses/cot3100/fall2016/reference/MathInWord.pdf]
+  Jemdoc+             [\https://szl2.github.io/jemdoc-new-design/www/cheatsheet.html]
