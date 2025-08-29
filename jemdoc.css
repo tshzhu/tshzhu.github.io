@@ -6,27 +6,27 @@ table#tlayout {
 	background: white;
 }
 
-/* body {
-	background: white;
-	padding-bottom: 8px;
-	margin: 0;
-	font-family: Georgia, serif;
-} */
-
 body {
 	background: white;
 	padding-bottom: 8px;
 	margin: 0;
+	font-family: Georgia, serif;
+}
+
+/* body {
+	background: white;
+	padding-bottom: 8px;
+	margin: 0;
     font-family: 
-        'Palatino Linotype',  /* Windows优雅衬线 */
-        Palatino,             /* macOS同源字体 */
-        'Book Antiqua',       /* 通用回退名称 */
-        Georgia,              /* 安全保底 */
-        'Microsoft YaHei',    /* 中文配套 */
+        'Palatino Linotype',
+        Palatino,
+        'Book Antiqua',
+        Georgia,
+        'Microsoft YaHei',
         serif;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: subpixel-antialiased;
-}
+} */
 
 #layout-menu {
 	background: #f6f6f6;

@@ -5,34 +5,33 @@
 
 ~~~
 {}{img_left}{images/photo-circle.png}{}{150}{}{}
-I am a final-year undergraduate at [https://en.zhiyuan.sjtu.edu.cn/ Zhiyuan College], [https://en.sjtu.edu.cn/ Shanghai Jiao Tong University], majoring in mathematics with a minor in finance. 
-In Fall 2025, I will join the [https://iiis.tsinghua.edu.cn/en/ Institute for Interdisciplinary Information Sciences] at [https://www.tsinghua.edu.cn/en/index.htm Tsinghua University] as a Ph.D. student, advised by Prof. [https://people.iiis.tsinghua.edu.cn/~jianli/ Jian Li].
 
+I am Tansheng Zhu (pronounced "Tahn-shung Joo" • \/ˈtɑːn.ʃʌŋ ˈdʒuː\/), a first-year Ph.D. student at [https://iiis.tsinghua.edu.cn/en/ Institute for Interdisciplinary Information Sciences], [https://www.tsinghua.edu.cn/en/index.htm Tsinghua University]. I am extremely fortunate to be advised by Prof. [https://people.iiis.tsinghua.edu.cn/~jianli/ Jian Li]. Before that, I studied as an undergraduate at [https://en.zhiyuan.sjtu.edu.cn/ Zhiyuan College], [https://en.sjtu.edu.cn/ Shanghai Jiao Tong University], majoring in mathematics with a minor in finance.
 
 At Shanghai Jiao Tong University, I am honored to pursue my undergraduate thesis research under the mentorship of Prof. [https://math.sjtu.edu.cn/faculty/xuzl/ Zhenli Xu].
-During my exchange at The Chinese University of Hong Kong, I was fortunate to join Prof. [https://fengleifan.github.io/Feng-Lei.Fan.github.io/about.html Fenglei Fan]'s research group as an intern and continued as a research assistant in the following summer.
+During my exchange at The Chinese University of Hong Kong, I was fortunate to join Prof. [https://fengleifan.github.io/Feng-Lei.Fan.github.io/about.html Fenglei Fan]'s research group and continued as a summer research intern.
 ~~~
 
-My research interests lie in~~{{<span style="font-family: monospace, sans-serif; font-weight: bold;">{machine learning theory, optimization, and high-dimensional probability}</span>}}.
-
-Under the guidance of Prof. Zhenli Xu, I am currently researching efficient algorithms for Bayesian optimization and reinforcement learning. 
-Also, under the supervision of Prof. Fenglei Fan, I am investigating the properties of finitely wide neural networks as their depth approaches infinity, with the aim of uncovering the duality between width and depth.
+My current research interests lie in *machine learning theory*, with a focus on understanding deep learning from training processes, scaling behaviors, generalization and application, and also the interpretability of large language models.
 
 
 == Education
-- Aug. 2021 -- June 2025, B.S. in Mathematics (Honors), Minor in Finance, Zhiyuan College, Shanghai Jiao Tong University
-- July 2024 -- Sept. 2024, Junior Research Assistant, Department of Mathematics, The Chinese University of Hong Kong
-- Jan. 2024 -- May 2024, Exchange Student, The Chinese University of Hong Kong
+- Ph.D. Student, Computer Science, [https://iiis.tsinghua.edu.cn/en/ Institute for Interdisciplinary Information Sciences], [https://www.tsinghua.edu.cn/en/index.htm Tsinghua University], Aug. 2025 -- Present\n
+Advisor: Prof. [https://people.iiis.tsinghua.edu.cn/~jianli/ Jian Li]
+- B.S., Mathematics and Applied Mathematics (Honors), Minor in Finance, [https://en.zhiyuan.sjtu.edu.cn/ Zhiyuan College], [https://en.sjtu.edu.cn/ Shanghai Jiao Tong University], Aug. 2021 -- June 2025\n
+Advisor: Prof. [https://math.sjtu.edu.cn/faculty/xuzl/ Zhenli Xu]\n
+Thesis: Scalable Bayesian Optimization via Density-based Exploration with Provable Convergence (SJTU Best Bachelor Thesis Award)
+- Junior Research Assistant, Department of Mathematics, [https://www.cuhk.edu.hk/english/index.html The Chinese University of Hong Kong], July 2024 -- Sept. 2024\n
+Advisor: Prof. [https://fengleifan.github.io/Feng-Lei.Fan.github.io/about.html Fenglei Fan]
+- Exchange Student, [https://www.cuhk.edu.hk/english/index.html The Chinese University of Hong Kong], Jan. 2024 -- May 2024.
 
 
-== Honors and Awards
-- June 2025, Outstanding Graduate of Shanghai Municipality (Top 1\%)
+== Awards
+- June 2025, Shanghai Outstanding Graduate (Top 1\%)
 - June 2025, Best Bachelor Thesis Award, Shanghai Jiao Tong University (Top 1\%)
 - June 2025, Zhiyuan Distinguished Scholarship, Shanghai Jiao Tong University (30 winners annually)
 - Dec. 2022, A-class Academic Excellence Scholarship, Shanghai Jiao Tong University (Top 1\%)
-#
 \n\n
-#
 - May 2024, Winning Prize in S.-T. Yau College Student Mathematics Contest, Appl. \& Comp. Mathematics Track
 - May 2024, Finalist Winner in Mathematical Contest in Modeling (Top 3\% of 18000+ teams)
 - Nov. 2023, 1st Prize in Shanghai Region of Chinese Mathematics Competitions
@@ -41,9 +40,7 @@ Also, under the supervision of Prof. Fenglei Fan, I am investigating the propert
 
 
 == Contact
-Email: {{<img src="images/mail-gmail.png" style="vertical-align: middle;">
-;&nbsp&nbsp
-<img src="images/mail-sjtu.png" style="vertical-align: middle;">}}\n
+Email: tshzhu $\langle\alpha\tau\rangle$ gmail $\langle\delta\omicron\tau\rangle$ com\n
 GitHub: [https://github.com/tshzhu tshzhu (Tansheng Zhu)]\n
 
 # \n
