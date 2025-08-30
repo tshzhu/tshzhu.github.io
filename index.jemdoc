@@ -1,4 +1,4 @@
-# jemdoc: menu{MENU}{index.html}, nofooter
+# jemdoc: menu{MENU}{index.html}, notime, showsource
 # jemdoc: title{Tansheng Zhu}
 = Tansheng Zhu~~{{<span style="font-family: 'KaiTi', STKaiti; font-size: 110%;">朱坦晟</span>}}
 
