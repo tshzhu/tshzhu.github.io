@@ -6,11 +6,13 @@ table#tlayout {
 	background: white;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&display=swap');
 body {
 	background: white;
 	padding-bottom: 8px;
 	margin: 0;
 	font-family:
+        'Cormorant Garamond',
         Georgia, 
         serif;
     text-rendering: optimizeLegibility;
