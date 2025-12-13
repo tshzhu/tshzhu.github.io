@@ -5,14 +5,13 @@
 
 
 # Me: _Tansheng Zhu_
-# Co-auther: {{<sup>†</sup>}}
-# Corresponding author: \*
+# Equal contributions or corresponding author: *
 ### ===========================================
 
 
 - *When Bias Pretends to Be Truth: How Spurious Correlations Undermine Hallucination Detection in LLMs* 
 [https://arxiv.org/abs/2511.07318 \[arxiv\]]{{<a href="javascript:void(0)" data-target="wang2025bias" class="cite-toggle">[cite]</a>}}\n
-Shaowen Wang{{<sup>†</sup>}}, Yiqi Dong{{<sup>†</sup>}}, Ruinian Chang{{<sup>†</sup>}}, _Tansheng Zhu_{{<sup>†</sup>}}, Yuebo Sun, Kaifeng Lyu, Jian Li\* \n
+Shaowen Wang\*, Yiqi Dong\*, Ruinian Chang\*, _Tansheng Zhu_\*, Yuebo Sun, Kaifeng Lyu, Jian Li \n
 Under Review.
 {{<p style="margin-bottom: 1.3em"><div class="codeblock" id="wang2025bias" style="display: none"><div class="blockcontent" style="margin-left: 40px"><pre>
 @misc{wang2025bias,
@@ -29,7 +28,7 @@ Under Review.
 
 - *Bayesian Optimization by Kernel Regression and Density-based Exploration*
 [https://arxiv.org/abs/2502.06178 \[arxiv\]]{{<a href="javascript:void(0)" data-target="zhu2025bayesian" class="cite-toggle">[cite]</a>}}\n
-_Tansheng Zhu_, Hongyu Zhou, Ke Jin, Xusheng Xu, Qiufan Yuan, Lijie Ji\* \n
+_Tansheng Zhu_, Hongyu Zhou, Ke Jin, Xusheng Xu, Qiufan Yuan, Lijie Ji \n
 Under Review.
 {{<p style="margin-bottom: 1.3em"><div class="codeblock" id="zhu2025bayesian" style="display: none"><div class="blockcontent" style="margin-left: 40px"><pre>
 @misc{zhu2025bayesian,
@@ -45,7 +44,7 @@ Under Review.
 
 
 - *Bayesian-Optimized Progressive Widening via Kernel Regression for Monte Carlo Tree Search in Continuous Action Spaces*\n
-Ke Jin, _Tansheng Zhu_, Hongyu Zhou, Xusheng Xu, Qiufan Yuan, Lijie Ji\* \n
+Ke Jin, _Tansheng Zhu_, Hongyu Zhou, Xusheng Xu, Qiufan Yuan, Lijie Ji \n
 Under Review.
 
 
