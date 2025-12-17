@@ -1,4 +1,4 @@
-# jemdoc: menu{MENU}{misc.html}, nofooter
+# jemdoc: menu{MENU}{misc.html}, nodate, showsource
 # jemdoc: title{Tansheng Zhu}
 = Miscellaneous
 

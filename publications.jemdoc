@@ -1,4 +1,4 @@
-# jemdoc: menu{MENU}{publications.html}, nofooter
+# jemdoc: menu{MENU}{publications.html}, nodate, showsource
 # jemdoc: addcss{bibtex.css}, addjs{bibtex}
 # jemdoc: title{Tansheng Zhu}
 = Publications
