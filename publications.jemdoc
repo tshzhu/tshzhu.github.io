@@ -4,43 +4,45 @@
 = Publications
 
 
+# Remarks:
 # Me: _Tansheng Zhu_
 # Equal contributions or corresponding author: *
-### ===========================================
 
 
 - *When Bias Pretends to Be Truth: How Spurious Correlations Undermine Hallucination Detection in LLMs* 
 [https://arxiv.org/abs/2511.07318 \[arxiv\]]{{<a href="javascript:void(0)" data-target="wang2025bias" class="cite-toggle">[cite]</a>}}\n
 Shaowen Wang\*, Yiqi Dong\*, Ruinian Chang\*, _Tansheng Zhu_\*, Yuebo Sun, Kaifeng Lyu, Jian Li \n
 Under Review.
-{{<p style="margin-bottom: 1.3em"><div class="codeblock" id="wang2025bias" style="display: none"><div class="blockcontent" style="margin-left: 40px"><pre>
+~~~
+{}{bibtex}{wang2025bias}
 @misc{wang2025bias,
-[T4]title={When Bias Pretends to Be Truth: How Spurious Correlations Undermine Hallucination Detection in LLMs}, 
-[T4]author={Shaowen Wang and Yiqi Dong and Ruinian Chang and Tansheng Zhu and Yuebo Sun and Kaifeng Lyu and Jian Li},
-[T4]year={2025},
-[T4]url={https://arxiv.org/abs/2511.07318}, 
-[T4]eprint={2511.07318},
-[T4]archiveprefix={arXiv},
-[T4]primaryclass={cs.CL},
+	title={When Bias Pretends to Be Truth: How Spurious Correlations Undermine Hallucination Detection in LLMs},
+	author={Shaowen Wang and Yiqi Dong and Ruinian Chang and Tansheng Zhu and Yuebo Sun and Kaifeng Lyu and Jian Li},
+	year={2025},
+	url={https://arxiv.org/abs/2511.07318},
+	eprint={2511.07318},
+	archiveprefix={arXiv},
+	primaryclass={cs.CL},
 }
-</pre></div></div></p>}}
+~~~
 
 
 - *Bayesian Optimization by Kernel Regression and Density-based Exploration*
 [https://arxiv.org/abs/2502.06178 \[arxiv\]]{{<a href="javascript:void(0)" data-target="zhu2025bayesian" class="cite-toggle">[cite]</a>}}\n
 _Tansheng Zhu_, Hongyu Zhou, Ke Jin, Xusheng Xu, Qiufan Yuan, Lijie Ji \n
 Under Review.
-{{<p style="margin-bottom: 1.3em"><div class="codeblock" id="zhu2025bayesian" style="display: none"><div class="blockcontent" style="margin-left: 40px"><pre>
+~~~
+{}{bibtex}{zhu2025bayesian}
 @misc{zhu2025bayesian,
-[T4]title={Bayesian Optimization by Kernel Regression and Density-based Exploration},
-[T4]author={Tansheng Zhu and Hongyu Zhou and Ke Jin and Xusheng Xu and Qiufan Yuan and Lijie Ji},
-[T4]year={2025},
-[T4]url={https://arxiv.org/abs/2502.06178},
-[T4]eprint={2502.06178},
-[T4]archiveprefix={arXiv},
-[T4]primaryclass={math.OC},
+	title={Bayesian Optimization by Kernel Regression and Density-based Exploration},
+	author={Tansheng Zhu and Hongyu Zhou and Ke Jin and Xusheng Xu and Qiufan Yuan and Lijie Ji},
+	year={2025},
+	url={https://arxiv.org/abs/2502.06178},
+	eprint={2502.06178},
+	archiveprefix={arXiv},
+	primaryclass={math.OC},
 }
-</pre></div></div></p>}}
+~~~
 
 
 - *Bayesian-Optimized Progressive Widening via Kernel Regression for Monte Carlo Tree Search in Continuous Action Spaces*\n

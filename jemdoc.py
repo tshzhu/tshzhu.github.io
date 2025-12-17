@@ -1452,7 +1452,7 @@ def procfile(f):
       l = nl(f)
 
     elif p == '\n':
-      nl(f)
+      delimiter_line = nl(f)
 
     # look for blocks.
     elif p == '~':
@@ -1506,6 +1506,35 @@ def procfile(f):
           f.tablecol = 1
 
           tableblock = True
+
+        elif len(g) >= 2 and g[1] == 'bibtex':
+          # handles
+          # {}{bibtex}{id}
+          # <bibtex content>
+          # ~
+          bid = ''
+          if len(g) >= 3 and g[2]:
+            bid = g[2]
+          # Start bibtex block container (hidden by default, toggled via JS)
+          out(f.outf, '<p style="margin-bottom: 1.3em">')
+          if bid:
+            out(f.outf, '<div class="codeblock bibtex-block" id="%s" style="display: none">' % bid)
+          else:
+            out(f.outf, '<div class="codeblock bibtex-block" style="display: none">')
+          out(f.outf, '<div class="blockcontent"><pre>')
+
+          # Emit raw lines until the terminating '~' line
+          while 1:
+            l = nl(f, codemode=True)
+            if not l:
+              break
+            # Require explicit terminator line of '~~~' for bibtex blocks.
+            if l.strip() == '~~~':
+              break
+            # Output raw to preserve indentation; avoid further replacements
+            out(f.outf, l)
+
+          out(f.outf, '</pre></div></div></p>')
 
         elif len(g) == 2:
           codeblock(f, g)

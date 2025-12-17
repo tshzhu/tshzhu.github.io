@@ -7,3 +7,14 @@
     border: none !important;
     overflow: hidden !important;
 }
+
+/* BibTeX block styling */
+.bibtex-block .blockcontent {
+    margin-left: 40px;
+}
+
+.bibtex-block pre {
+    font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    font-size: 0.95em;
+    line-height: 1.35;
+}

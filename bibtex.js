@@ -24,10 +24,10 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
     
-    // 转换所有 pre 元素中的缩进标记
+    // 向后兼容：将 [T4]/[T8] 缩进标记替换为不换行空格（旧内容仍可正常显示）
     document.querySelectorAll('.codeblock pre').forEach(pre => {
         pre.innerHTML = pre.innerHTML
-            .replace(/\[T4\]/g, '&nbsp;&nbsp;&nbsp;&nbsp;') // 4x space
-            .replace(/\[T8\]/g, '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'); // 8x space
+            .replace(/\[T4\]/g, '\u00A0\u00A0\u00A0\u00A0')
+            .replace(/\[T8\]/g, '\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0');
     });
 });
