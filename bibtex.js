@@ -23,11 +23,4 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         });
     });
-    
-    // 向后兼容：将 [T4]/[T8] 缩进标记替换为不换行空格（旧内容仍可正常显示）
-    document.querySelectorAll('.codeblock pre').forEach(pre => {
-        pre.innerHTML = pre.innerHTML
-            .replace(/\[T4\]/g, '\u00A0\u00A0\u00A0\u00A0')
-            .replace(/\[T8\]/g, '\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0');
-    });
 });
