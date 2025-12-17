@@ -4,9 +4,9 @@
 = Publications
 
 
-# Remarks:
-# Me: _Tansheng Zhu_
-# Equal contributions or corresponding author: *
+# Note:
+# Me -> _Tansheng Zhu_
+# Co-first or corresponding author -> *
 
 
 - *When Bias Pretends to Be Truth: How Spurious Correlations Undermine Hallucination Detection in LLMs* 
@@ -16,13 +16,13 @@ Under Review.
 ~~~
 {}{bibtex}{wang2025bias}
 @misc{wang2025bias,
-	title={When Bias Pretends to Be Truth: How Spurious Correlations Undermine Hallucination Detection in LLMs},
-	author={Shaowen Wang and Yiqi Dong and Ruinian Chang and Tansheng Zhu and Yuebo Sun and Kaifeng Lyu and Jian Li},
-	year={2025},
-	url={https://arxiv.org/abs/2511.07318},
-	eprint={2511.07318},
-	archiveprefix={arXiv},
-	primaryclass={cs.CL},
+    title={When Bias Pretends to Be Truth: How Spurious Correlations Undermine Hallucination Detection in LLMs},
+    author={Shaowen Wang and Yiqi Dong and Ruinian Chang and Tansheng Zhu and Yuebo Sun and Kaifeng Lyu and Jian Li},
+    year={2025},
+    url={https://arxiv.org/abs/2511.07318},
+    eprint={2511.07318},
+    archiveprefix={arXiv},
+    primaryclass={cs.CL},
 }
 ~~~
 
@@ -34,13 +34,13 @@ Under Review.
 ~~~
 {}{bibtex}{zhu2025bayesian}
 @misc{zhu2025bayesian,
-	title={Bayesian Optimization by Kernel Regression and Density-based Exploration},
-	author={Tansheng Zhu and Hongyu Zhou and Ke Jin and Xusheng Xu and Qiufan Yuan and Lijie Ji},
-	year={2025},
-	url={https://arxiv.org/abs/2502.06178},
-	eprint={2502.06178},
-	archiveprefix={arXiv},
-	primaryclass={math.OC},
+    title={Bayesian Optimization by Kernel Regression and Density-based Exploration},
+    author={Tansheng Zhu and Hongyu Zhou and Ke Jin and Xusheng Xu and Qiufan Yuan and Lijie Ji},
+    year={2025},
+    url={https://arxiv.org/abs/2502.06178},
+    eprint={2502.06178},
+    archiveprefix={arXiv},
+    primaryclass={math.OC},
 }
 ~~~
 
