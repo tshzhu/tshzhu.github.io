@@ -16,7 +16,7 @@ Under Review.
 ~~~
 {}{bibtex}{wang2025bias}
 @misc{wang2025bias,
-    title = {When Bias Pretends to Be Truth: How Spurious Correlations Undermine Hallucination Detection in LLMs},
+    title = {When Bias Pretends to Be Truth: {H}ow Spurious Correlations Undermine Hallucination Detection in {LLMs}},
     author = {Shaowen Wang and Yiqi Dong and Ruinian Chang and Tansheng Zhu and Yuebo Sun and Kaifeng Lyu and Jian Li},
     year = {2025},
     url = {https://arxiv.org/abs/2511.07318},
@@ -34,7 +34,7 @@ Under Review.
 ~~~
 {}{bibtex}{zhu2025bayesian}
 @misc{zhu2025bayesian,
-    title = {Bayesian Optimization by Kernel Regression and Density-based Exploration},
+    title = {{B}ayesian Optimization by Kernel Regression and Density-based Exploration},
     author = {Tansheng Zhu and Hongyu Zhou and Ke Jin and Xusheng Xu and Qiufan Yuan and Lijie Ji},
     year = {2025},
     url = {https://arxiv.org/abs/2502.06178},
@@ -48,19 +48,20 @@ Under Review.
 - *Bayesian-Optimized Progressive Widening via Kernel Regression for Monte Carlo Tree Search in Continuous Action Spaces*
 [https://www.sciencedirect.com/science/article/pii/S2405896325020105 \[paper\]]{{<a href="javascript:void(0)" data-target="jin2025bayesian" class="cite-toggle">[cite]</a>}}\n
 Ke Jin, _Tansheng Zhu_, Hongyu Zhou, Xusheng Xu, Qiufan Yuan, Lijie Ji \n
-23th IFAC Symposium on Automatic Control in Aerospace (ACA 2025).
+23rd IFAC Symposium on Automatic Control in Aerospace (ACA 2025).
 ~~~
 {}{bibtex}{jin2025bayesian}
-@inproceedings{jin2025bayesian,
-    title = {Bayesian-Optimized Progressive Widening via Kernel Regression for Monte Carlo Tree Search in Continuous Action Spaces},
+@article{jin2025bayesian,
+    title = {{B}ayesian-Optimized Progressive Widening via Kernel Regression for {M}onte {C}arlo Tree Search in Continuous Action Spaces},
     author = {Ke Jin and Tansheng Zhu and Hongyu Zhou and Xusheng Xu and Qiufan Yuan and Lijie Ji},
-    year = {2025},
-    booktitle = {23th IFAC Symposium on Automatic Control in Aerospace (ACA 2025)},
+    year = 2025,
+    journal = {IFAC-PapersOnLine},
     publisher = {Elsevier},
-    volume = {59},
-    number = {20},
+    volume = 59,
+    number = 20,
     pages = {1291--1296},
-    doi = {https://doi.org/10.1016/j.ifacol.2025.11.334}
+    doi = {10.1016/j.ifacol.2025.11.334},
+    note = {23rd IFAC Symposium on Automatic Control in Aerospace (ACA 2025)}
 }
 ~~~
 
