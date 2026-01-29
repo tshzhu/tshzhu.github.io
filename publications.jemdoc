@@ -9,8 +9,13 @@
 # Co-first or corresponding author -> *
 
 
+- *AdaRoPE: Not All Attention Heads Should Rotate and Scale Equally* \n
+Shaowen Wang, Yuke Zheng, _Tansheng Zhu_, Shuang Chen, Shaofan Liu, Suncong Zheng, Jian Li \n
+Working Paper, 2026.
+
+
 - *When Bias Pretends to Be Truth: How Spurious Correlations Undermine Hallucination Detection in LLMs* 
-[https://arxiv.org/abs/2511.07318 \[arxiv\]]{{<a href="javascript:void(0)" data-target="wang2025bias" class="cite-toggle">[cite]</a>}}\n
+[https://arxiv.org/abs/2511.07318 \[arxiv\]]{{<a href="javascript:void(0)" data-target="wang2025bias" class="cite-toggle">[cite]</a>}} \n
 Shaowen Wang\*, Yiqi Dong\*, Ruinian Chang\*, _Tansheng Zhu_\*, Yuebo Sun, Kaifeng Lyu, Jian Li \n
 Preprint, 2025.
 ~~~
@@ -28,7 +33,7 @@ Preprint, 2025.
 
 
 - *Bayesian Optimization by Kernel Regression and Density-based Exploration*
-[https://arxiv.org/abs/2502.06178 \[arxiv\]]{{<a href="javascript:void(0)" data-target="zhu2025bayesian" class="cite-toggle">[cite]</a>}}\n
+[https://arxiv.org/abs/2502.06178 \[arxiv\]]{{<a href="javascript:void(0)" data-target="zhu2025bayesian" class="cite-toggle">[cite]</a>}} \n
 _Tansheng Zhu_, Hongyu Zhou, Ke Jin, Xusheng Xu, Qiufan Yuan, Lijie Ji \n
 Preprint, 2025.
 ~~~
@@ -46,7 +51,7 @@ Preprint, 2025.
 
 
 - *Bayesian-Optimized Progressive Widening via Kernel Regression for Monte Carlo Tree Search in Continuous Action Spaces*
-[https://www.sciencedirect.com/science/article/pii/S2405896325020105 \[paper\]]{{<a href="javascript:void(0)" data-target="jin2025bayesian" class="cite-toggle">[cite]</a>}}\n
+[https://www.sciencedirect.com/science/article/pii/S2405896325020105 \[paper\]]{{<a href="javascript:void(0)" data-target="jin2025bayesian" class="cite-toggle">[cite]</a>}} \n
 Ke Jin, _Tansheng Zhu_, Hongyu Zhou, Xusheng Xu, Qiufan Yuan, Lijie Ji \n
 23rd IFAC Symposium on Automatic Control in Aerospace (ACA 2025).
 ~~~
@@ -66,6 +71,6 @@ Ke Jin, _Tansheng Zhu_, Hongyu Zhou, Xusheng Xu, Qiufan Yuan, Lijie Ji \n
 ~~~
 
 
-# - *Neural Network Width-Depth Equivalence: A View from Ergodic Dynamic System I*\n
-# Fenglei Fan, _Tansheng Zhu_\*~~~~(alphabetical order)\n
+# - *Neural Network Width-Depth Equivalence: A View from Ergodic Dynamic System I* \n
+# Fenglei Fan, _Tansheng Zhu_\*~~~~(alphabetical order) \n
 # Ongoing 2025.
