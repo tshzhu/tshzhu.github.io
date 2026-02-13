@@ -1,5 +1,12 @@
 /* Default css file for jemdoc. */
 
+html {
+	text-size-adjust: none;
+	-webkit-text-size-adjust: none;
+	-moz-text-size-adjust: none;
+	-ms-text-size-adjust: none;
+}
+
 table#tlayout {
 	border: none;
 	border-collapse: separate;
@@ -13,15 +20,14 @@ table#tlayout {
 	box-sizing: border-box;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&display=swap');
 body {
 	background: white;
-	padding-bottom: 8px;
+	padding: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 1.02em;
 	margin: 0;
-	font-family:
-        'Cormorant Garamond',
-        Georgia, 
-        serif;
+	font-family: Optima, Georgia, sans-serif;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -33,12 +39,15 @@ p, li, dd {
 }
 
 #layout-menu {
-	background: #f6f6f6;
-	border: 1px solid #dddddd;
-	padding-top: 0.5em;
+	background: #f4f4f4;
+	border: none;
+	border-right: 1px solid #dddddd;
+	border-bottom: none;
+	margin: 0;
+	padding-top: 15px;
 	padding-left: 8px;
-	padding-right: 8px;
-	font-size: 1.02em;
+	padding-right: 15px;
+	font-size: 1.0em;
 	width: auto;
 	white-space: nowrap;
 	text-align: left;
@@ -51,9 +60,11 @@ p, li, dd {
 }
 
 #layout-content {
-	padding-top: 0.0em;
-	padding-left: 1.0em;
-	padding-right: 1.0em;
+	padding-top: 10px;
+	padding-left: 16px;
+	padding-right: 16px;
+	padding-bottom: 0;
+	margin: 0;
 	border: none;
 	background: white;
 	text-align: left;
@@ -67,7 +78,11 @@ p, li, dd {
 }
 
 tt {
-	background: #ffffdd;
+	color: green;
+}
+
+tt.tthl {
+	color: black;
 }
 
 pre, tt {
@@ -97,7 +112,7 @@ a:hover {
 }
 
 div.menu-category {
-	border-bottom: 1px solid gray;
+	border-bottom: 0px solid gray;
 	margin-top: 0.8em;
 	padding-top: 0.2em;
 	padding-bottom: 0.1em;
@@ -106,13 +121,16 @@ div.menu-category {
 
 div.menu-item {
 	padding-left: 16px;
+	padding-right: 0;
 	text-indent: -16px;
+	text-align: left;
 }
 
 div#toptitle {
-	padding-bottom: 0.2em;
-	margin-bottom: 1.5em;
-	border-bottom: 3px double gray;
+	color: #527bbd;
+	padding-bottom: .5em;
+	margin-bottom: 1.3em;
+	border-bottom: 1px solid gray;
 }
 
 /* Reduce space if we begin the page with a title. */
@@ -137,7 +155,7 @@ strong {
 
 
 h1, h2, h3 {
-	color: #527bbd;
+	color: #bb0000;
 	margin-top: 0.7em;
 	margin-bottom: 0.3em;
 	padding-bottom: 0.2em;
@@ -160,7 +178,7 @@ h2 + h3 {
 }
 
 h3 {
-	font-size: 110%;
+	font-size: 105%;
 	border-bottom: none;
 }
 
@@ -178,14 +196,9 @@ pre {
 
 div#footer {
 	font-size: small;
-	border-top: 1px solid #c0c0c0;
+	border-top: 1px solid gray;
 	padding-top: 0.1em;
 	margin-top: 4.0em;
-	color: #c0c0c0;
-}
-
-div#footer a {
-	color: #80a0b0;
 }
 
 div#footer-text {
@@ -270,7 +283,7 @@ div.blockcontent {
 }
 
 div.infoblock > div.blockcontent {
-	background: #ffffee;
+	background: #f6f6f6;
 }
 
 div.blockcontent p + ul, div.blockcontent p + ol {
@@ -342,6 +355,22 @@ div#toptitle h1, #layout-content div#toptitle h1 {
 	padding-top: 0;
 	margin-top: 0.5em;
 	border-bottom: none;
+}
+
+div#toptitle, div#toptitle h1, div#toptitle a, div#subtitle, div#subtitle a {
+	color: #666666;
+	text-align: left;
+}
+
+div#toptitle a:hover {
+	border-bottom: none;
+}
+
+div#toptitle h1 {
+	color: #666666;
+	margin-top: 0.1em;
+	font-weight: bold;
+	font-size: 25px;
 }
 
 img.eq {
