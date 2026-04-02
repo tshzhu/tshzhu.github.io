@@ -21,7 +21,7 @@ Preprint, 2025.
 ~~~
 {}{bibtex}{wang2025bias}
 @misc{wang2025bias,
-    title = {When Bias Pretends to Be Truth: {H}ow Spurious Correlations Undermine Hallucination Detection in {LLMs}},
+    title = {When Bias Pretends to Be Truth: How Spurious Correlations Undermine Hallucination Detection in {LLMs}},
     author = {Shaowen Wang and Yiqi Dong and Ruinian Chang and Tansheng Zhu and Yuebo Sun and Kaifeng Lyu and Jian Li},
     year = {2025},
     url = {https://arxiv.org/abs/2511.07318},
