@@ -15,19 +15,17 @@ Working Paper, 2026.
 
 
 - *When Bias Pretends to Be Truth: How Spurious Correlations Undermine Hallucination Detection in LLMs* 
-[https://arxiv.org/abs/2511.07318 \[arxiv\]]{{<a href="javascript:void(0)" data-target="wang2025bias" class="cite-toggle">[cite]</a>}} \n
+[https://arxiv.org/abs/2511.07318 \[arxiv\]]{{<a href="javascript:void(0)" data-target="wang2026when" class="cite-toggle">[cite]</a>}} \n
 Shaowen Wang\*, Yiqi Dong\*, Ruinian Chang\*, _Tansheng Zhu_\*, Yuebo Sun, Kaifeng Lyu, Jian Li \n
-Preprint, 2025.
+ICLR 2026 Workshop on Principled Design for Trustworthy AI - Interpretability, Robustness, and Safety across Modalities.
 ~~~
-{}{bibtex}{wang2025bias}
-@misc{wang2025bias,
-    title = {When Bias Pretends to Be Truth: How Spurious Correlations Undermine Hallucination Detection in {LLMs}},
+{}{bibtex}{wang2026when}
+@inproceedings{wang2026when,
+    title = {When Bias Pretends to Be Truth: How Spurious Correlations Undermine Hallucination Detection in {LLM}s},
     author = {Shaowen Wang and Yiqi Dong and Ruinian Chang and Tansheng Zhu and Yuebo Sun and Kaifeng Lyu and Jian Li},
-    year = {2025},
-    url = {https://arxiv.org/abs/2511.07318},
-    eprint = {2511.07318},
-    archiveprefix = {arXiv},
-    primaryclass = {cs.CL}
+    year={2026},
+    booktitle={ICLR 2026 Workshop on Principled Design for Trustworthy AI - Interpretability, Robustness, and Safety across Modalities},
+    url={https://openreview.net/forum?id=qveA6K5CLU}
 }
 ~~~
 
