@@ -9,9 +9,10 @@
 # Co-first author or core contributor -> *
 
 
-- *AdaRoPE: Not All Attention Heads Should Rotate and Scale Equally* \n
+- *AdaRoPE: Not All Attention Heads Should Rotate and Scale Equally*
+[https://icml.cc/virtual/2026/poster/60704 \[paper\]] \n
 Shaowen Wang\*, Yuke Zheng\*, _Tansheng Zhu_\*, Shuang Chen\*, Shaofan Liu, Suncong Zheng, Jian Li \n
-Working Paper, 2026.
+ICML 2026.
 
 
 - *When Bias Pretends to Be Truth: How Spurious Correlations Undermine Hallucination Detection in LLMs* 
