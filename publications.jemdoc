@@ -10,9 +10,18 @@
 
 
 - *AdaRoPE: Not All Attention Heads Should Rotate and Scale Equally*
-[https://icml.cc/virtual/2026/poster/60704 \[poster\]] \n
+[https://icml.cc/virtual/2026/poster/60704 \[poster\]]{{<a href="javascript:void(0)" data-target="wang2026adarope" class="cite-toggle">[cite]</a>}} \n
 Shaowen Wang\*, Yuke Zheng\*, _Tansheng Zhu_\*, Shuang Chen\*, Shaofan Liu, Suncong Zheng, Jian Li \n
 ICML 2026.
+~~~
+{}{bibtex}{wang2026adarope}
+@inproceedings{wang2026adarope,
+    title = {{AdaRoPE}: Not All Attention Heads Should Rotate and Scale Equally},
+    author = {Wang, Shaowen and Zheng, Yuke and Zhu, Tansheng and Chen, Shuang and Liu, Shaofan and Zheng, Suncong and Jian, Li},
+    booktitle = {Proceedings of the International Conference on Machine Learning},
+    year = {2026},
+}
+~~~
 
 
 - *When Bias Pretends to Be Truth: How Spurious Correlations Undermine Hallucination Detection in LLMs* 
