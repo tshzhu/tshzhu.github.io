@@ -27,7 +27,7 @@ ICML 2026.
 - *When Bias Pretends to Be Truth: How Spurious Correlations Undermine Hallucination Detection in LLMs* 
 [https://arxiv.org/abs/2511.07318 \[arxiv\]][https://openreview.net/forum?id=qveA6K5CLU \[paper\]]{{<a href="javascript:void(0)" data-target="wang2026when" class="cite-toggle">[cite]</a>}} \n
 Shaowen Wang\*, Yiqi Dong\*, Ruinian Chang\*, _Tansheng Zhu_\*, Yuebo Sun, Kaifeng Lyu, Jian Li \n
-ICLR 2026 Workshop on Principled Design for Trustworthy AI - Interpretability, Robustness, and Safety across Modalities.
+ICLR 2026 Workshop on Principled Design for Trustworthy AI.
 ~~~
 {}{bibtex}{wang2026when}
 @inproceedings{wang2026when,
