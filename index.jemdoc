@@ -22,7 +22,11 @@ During an exchange at [https://www.cuhk.edu.hk/english/index.html The Chinese Un
 
 
 ~~~
-My current research interests lie in *machine learning theory*, with a focus on understanding deep learning and exploring large language models (LLMs) from a mathematical perspective.
+My research interests center on the *mathematical foundations of deep learning and large language models*. 
+I seek to understand the scaling behavior, optimization process, and implicit biases of neural networks from a mathematical perspective, with particular attention to the *interplay between model architecture and training dynamics*. 
+I am also interested in statistical learning theory and its applications to modern AI systems. 
+
+My goal is to develop principled frameworks that not only explain the empirical success of deep learning but also guide the design of more *interpretable, reliable, and efficient* models.
 ~~~
 
 
