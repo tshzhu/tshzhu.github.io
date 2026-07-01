@@ -17,9 +17,10 @@ ICML 2026.
 {}{bibtex}{wang2026adarope}
 @inproceedings{wang2026adarope,
     title = {{AdaRoPE}: Not All Attention Heads Should Rotate and Scale Equally},
-    author = {Wang, Shaowen and Zheng, Yuke and Zhu, Tansheng and Chen, Shuang and Liu, Shaofan and Zheng, Suncong and Jian, Li},
-    booktitle = {Proceedings of the International Conference on Machine Learning},
-    year = {2026},
+    author={Shaowen Wang and Yuke Zheng and Tansheng Zhu and Shuang Chen and Shaofan Liu and Suncong Zheng and Jian Li},
+    booktitle={Forty-third International Conference on Machine Learning},
+    year={2026},
+    url={https://openreview.net/forum?id=xNuMtLaxo5}
 }
 ~~~
 
