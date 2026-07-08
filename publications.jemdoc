@@ -17,16 +17,16 @@ ICML 2026.
 {}{bibtex}{wang2026adarope}
 @inproceedings{wang2026adarope,
     title = {{AdaRoPE}: Not All Attention Heads Should Rotate and Scale Equally},
-    author={Shaowen Wang and Yuke Zheng and Tansheng Zhu and Shuang Chen and Shaofan Liu and Suncong Zheng and Jian Li},
-    booktitle={Forty-third International Conference on Machine Learning},
-    year={2026},
-    url={https://openreview.net/forum?id=xNuMtLaxo5}
+    author = {Shaowen Wang and Yuke Zheng and Tansheng Zhu and Shuang Chen and Shaofan Liu and Suncong Zheng and Jian Li},
+    year = {2026},
+    booktitle = {Forty-third International Conference on Machine Learning},
+    url = {https://openreview.net/forum?id=xNuMtLaxo5}
 }
 ~~~
 
 
 - *When Bias Pretends to Be Truth: How Spurious Correlations Undermine Hallucination Detection in LLMs* 
-[https://arxiv.org/abs/2511.07318 \[arxiv\]][https://openreview.net/forum?id=qveA6K5CLU \[paper\]]{{<a href="javascript:void(0)" data-target="wang2026when" class="cite-toggle">[cite]</a>}} \n
+[https://openreview.net/forum?id=qveA6K5CLU \[paper\]][https://arxiv.org/abs/2511.07318 \[arxiv\]]{{<a href="javascript:void(0)" data-target="wang2026when" class="cite-toggle">[cite]</a>}} \n
 Shaowen Wang\*, Yiqi Dong\*, Ruinian Chang\*, _Tansheng Zhu_\*, Yuebo Sun, Kaifeng Lyu, Jian Li \n
 ICLR 2026 Workshop on Principled Design for Trustworthy AI.
 ~~~
@@ -34,17 +34,29 @@ ICLR 2026 Workshop on Principled Design for Trustworthy AI.
 @inproceedings{wang2026when,
     title = {When Bias Pretends to Be Truth: How Spurious Correlations Undermine Hallucination Detection in {LLM}s},
     author = {Shaowen Wang and Yiqi Dong and Ruinian Chang and Tansheng Zhu and Yuebo Sun and Kaifeng Lyu and Jian Li},
-    year={2026},
-    booktitle={ICLR 2026 Workshop on Principled Design for Trustworthy AI - Interpretability, Robustness, and Safety across Modalities},
-    url={https://openreview.net/forum?id=qveA6K5CLU}
+    year = {2026},
+    booktitle = {ICLR 2026 Workshop on Principled Design for Trustworthy AI - Interpretability, Robustness, and Safety across Modalities},
+    url = {https://openreview.net/forum?id=qveA6K5CLU}
 }
 ~~~
 
 
 - *Bayesian Optimization by Kernel Regression and Density-based Exploration*
-[https://arxiv.org/abs/2502.06178 \[arxiv\]]{{<a href="javascript:void(0)" data-target="zhu2025bayesian" class="cite-toggle">[cite]</a>}} \n
+[https://link.springer.com/article/10.1007/s10589-026-00808-x \[paper\]][https://arxiv.org/abs/2502.06178 \[arxiv\]]{{<a href="javascript:void(0)" data-target="zhu2026bayesian" class="cite-toggle">[cite]</a>}} \n
 _Tansheng Zhu_, Hongyu Zhou, Ke Jin, Xusheng Xu, Qiufan Yuan, Lijie Ji \n
-Accepted by Computational Optimization and Applications (COAP), 2026.
+Computational Optimization and Applications, 2026.
+~~~
+{}{bibtex}{zhu2026bayesian}
+@article{zhu2026bayesian,
+    title = {{B}ayesian Optimization by Kernel Regression and Density-based Exploration},
+    author = {Tansheng Zhu and Hongyu Zhou and Ke Jin and Xusheng Xu and Qiufan Yuan and Lijie Ji},
+    year = {2026},
+    journal = {Computational Optimization and Applications},
+    publisher = {Springer Nature},
+    doi = {10.1007/s10589-026-00808-x},
+    url = {https://doi.org/10.1007/s10589-026-00808-x}
+}
+~~~
 ~~~
 {}{bibtex}{zhu2025bayesian}
 @misc{zhu2025bayesian,
@@ -68,11 +80,11 @@ Ke Jin, _Tansheng Zhu_, Hongyu Zhou, Xusheng Xu, Qiufan Yuan, Lijie Ji \n
 @article{jin2025bayesian,
     title = {{B}ayesian-Optimized Progressive Widening via Kernel Regression for {M}onte {C}arlo Tree Search in Continuous Action Spaces},
     author = {Ke Jin and Tansheng Zhu and Hongyu Zhou and Xusheng Xu and Qiufan Yuan and Lijie Ji},
-    year = 2025,
+    year = {2025},
     journal = {IFAC-PapersOnLine},
     publisher = {Elsevier},
-    volume = 59,
-    number = 20,
+    volume = {59},
+    number = {20},
     pages = {1291--1296},
     doi = {10.1016/j.ifacol.2025.11.334},
     note = {23rd IFAC Symposium on Automatic Control in Aerospace (ACA 2025)}
