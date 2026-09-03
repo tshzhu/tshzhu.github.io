@@ -28,6 +28,7 @@ import os
 import re
 import time
 import io
+import glob
 from subprocess import *
 from types import *
 import tempfile
@@ -431,14 +432,17 @@ def hb(f, tag, content1, content2=None, content3=None):
 
   if content2 is None:
 #    out(f, re.sub(r'\|', content1, tag))
-    r = re.sub(r'\|', content1, tag)
-    r = re.sub(r'\|3', content3, r)
+    # Use callable replacements so backslashes in Windows paths are treated
+    # literally (``re.sub`` interprets backslash sequences in string
+    # replacements).
+    r = re.sub(r'\|', lambda m: content1, tag)
+    r = re.sub(r'\|3', lambda m: content3, r)
     r = mathjaxeqresub(r)
     out(f, r)
   else:
-    r = re.sub(r'\|1', content1, tag)
-    r = re.sub(r'\|3', content3, r)
-    r = re.sub(r'\|2', content2, r)
+    r = re.sub(r'\|1', lambda m: content1, tag)
+    r = re.sub(r'\|3', lambda m: content3, r)
+    r = re.sub(r'\|2', lambda m: content2, r)
     r = mathjaxeqresub(r)
     out(f, r)
 
@@ -1644,13 +1648,24 @@ def main():
 
   innames = []
   for j in range(i, len(sys.argv)):
-    # First, if not a file and no dot, try opening .jemdoc. Otherwise, fall back
-    # to just doing exactly as asked.
-    inname = sys.argv[j]
-    if not os.path.isfile(inname) and '.' not in inname:
-      inname += '.jemdoc'
+    # POSIX shells expand wildcards before invoking Python, but CMD and
+    # PowerShell pass patterns such as ``*.jemdoc`` literally.  Expand them
+    # here so the same command works on every platform.
+    arg = sys.argv[j]
+    if glob.has_magic(arg):
+      matches = sorted(path for path in glob.glob(arg) if os.path.isfile(path))
+      # Keep an unmatched pattern so the normal file-open error remains
+      # explicit instead of silently doing nothing.
+      candidates = matches or [arg]
+    else:
+      candidates = [arg]
 
-    innames.append(inname)
+    for inname in candidates:
+      # First, if not a file and no dot, try opening .jemdoc. Otherwise, fall
+      # back to just doing exactly as asked.
+      if not os.path.isfile(inname) and '.' not in inname:
+        inname += '.jemdoc'
+      innames.append(inname)
 
   if outname is not None and not os.path.isdir(outname) and len(innames) > 1:
     raise RuntimeError('cannot handle one outfile with multiple infiles')
@@ -1665,7 +1680,10 @@ def main():
       thisout = outname
 
     infile = io.open(inname, 'rb')
-    outfile = io.open(thisout, 'w')
+    # Always emit UTF-8 HTML.  On Windows the process locale is often GBK,
+    # which otherwise raises UnicodeEncodeError for Chinese or other
+    # non-ASCII text in the source.
+    outfile = io.open(thisout, 'w', encoding='utf-8', newline='')
 
 #    print(infile.read())
     f = controlstruct(infile, outfile, conf, inname)
