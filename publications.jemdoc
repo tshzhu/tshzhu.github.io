@@ -9,6 +9,24 @@
 # Co-first author or core contributor -> *
 
 
+- *Loop-μP: Residual Scaling and Hyperparameter Transfer in Looped Transformers*
+[https://arxiv.org/abs/2606.18524 \[arxiv\]]{{<a href="javascript:void(0)" data-target="wang2026loop" class="cite-toggle">[cite]</a>}} \n
+Shaowen Wang, Bingrui Li, _Tansheng Zhu_, Ge Zhang, Wenhao Huang, Shen Yan, Jian Li \n
+Preprint.
+~~~
+{}{bibtex}{wang2026loop}
+@misc{wang2026loop,
+    title={Loop-$\mu$P: Residual Scaling and Hyperparameter Transfer in Looped Transformers}, 
+    author={Shaowen Wang and Bingrui Li and Tansheng Zhu and Ge Zhang and Wenhao Huang and Shen Yan and Jian Li},
+    year={2026},
+    eprint={2606.18524},
+    archivePrefix={arXiv},
+    primaryClass={cs.LG},
+    url={https://arxiv.org/abs/2606.18524}, 
+}
+~~~
+
+
 - *AdaRoPE: Not All Attention Heads Should Rotate and Scale Equally*
 [https://openreview.net/forum?id=xNuMtLaxo5 \[paper\]][https://arxiv.org/abs/2607.19363 \[arxiv\]]{{<a href="javascript:void(0)" data-target="wang2026adarope" class="cite-toggle">[cite]</a>}} \n
 Shaowen Wang\*, Yuke Zheng\*, _Tansheng Zhu_\*, Shuang Chen\*, Shaofan Liu, Suncong Zheng, Jian Li \n
